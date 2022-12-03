@@ -9,6 +9,9 @@
 
 body {
     font-family: var(--primary-font);
+    background: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 .logo span {
@@ -21,8 +24,6 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-
 color: var(--accent-color);
 
 }
@@ -47,10 +48,7 @@ color: var(--primary-text-color);
 }
 .menu-link {
 font-weight: 600;
-font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
-
 color: var(--primary-text-color);
 
 }
@@ -60,10 +58,7 @@ color: var(--primary-text-color);
 }
 .contact {
 font-weight: 400;
-font-size: 16px;
 line-height: 1.5;
-
-letter-spacing: 0.02em;
 
 color: var(--secondary-text-color);
 
@@ -81,20 +76,17 @@ font-size: 56px;
 line-height: 1.07;
 
 text-align: center;
-letter-spacing: 0.02em;
-
 color: #FFFFFF;
 
 }
 .primary-btn {
 font-weight: 600;
-font-size: 16px;
 line-height: 1.19;
 
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-
+cursor: pointer;
 color: #FFFFFF;
     background: var(--accent-color);
 }
@@ -110,7 +102,6 @@ font-size: 36px;
 line-height: 1.11;
 
 text-align: center;
-letter-spacing: 0.02em;
 text-transform: capitalize;
 
 color: var(--primary-text-color);
@@ -120,31 +111,40 @@ color: var(--primary-text-color);
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
-
-letter-spacing: 0.02em;
-
 color: var(--primary-text-color);
 
 }
 .text {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
-    
-    letter-spacing: 0.02em;
-    
     color: var(--secondary-text-color);
      
 }
 .section-text {
 font-weight: 400;
-font-size: 16px;
 line-height: 1.5;
-
 text-align: center;
-letter-spacing: 0.02em;
-
 color: var(--secondary-text-color);
+}
+.team {
+    background: #F4F4FD;
+}
+.projects-btn {
+    font-weight: 600;
+    line-height: 1.5;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+}
+.projects-btn:hover {
+    color: #FFFFFF;
+    background: var(--accent-color);
 }
 
 /* --------Footer-------- */
@@ -153,13 +153,9 @@ color: var(--secondary-text-color);
 }
 .footer-text {
 font-weight: 400;
-font-size: 16px;
 line-height: 1.5;
-
-letter-spacing: 0.02em;
-
 color: #E7E9FC;
 }
-.footer.logo {
-    color:  #F4F4FD;
+.footer .logo {
+    color: #F4F4FD;
 }
