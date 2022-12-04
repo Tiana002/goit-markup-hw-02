@@ -9,21 +9,13 @@
 
 body {
     font-family: var(--primary-font);
+    font-weight: 400;
     background: #FFFFFF;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
 
 .logo span {
-font-family: var(--secondary-font);
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: var(--accent-color);
 
 }
@@ -33,8 +25,6 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -47,7 +37,7 @@ color: var(--primary-text-color);
     text-decoration: none;
 }
 .menu-link {
-font-weight: 600;
+font-weight: 500;
 line-height: 1.5;
 color: var(--primary-text-color);
 
@@ -71,7 +61,7 @@ color: var(--secondary-text-color);
     background: var(--background-color);
 }
 .hero-title {
-font-weight: 600;
+font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 
@@ -80,11 +70,9 @@ color: #FFFFFF;
 
 }
 .primary-btn {
-font-weight: 600;
+font-family: inherit;
+font-weight: 500;
 line-height: 1.19;
-
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
 cursor: pointer;
 color: #FFFFFF;
@@ -97,7 +85,7 @@ color: #FFFFFF;
     background: #404BBF;
 }
 .section-title {
-font-weight: 600;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 
@@ -108,33 +96,31 @@ color: var(--primary-text-color);
 
 }
 .subject {
-font-weight: 600;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 color: var(--primary-text-color);
 
 }
 .text {
-    font-weight: 400;
     line-height: 1.5;
     color: var(--secondary-text-color);
      
 }
 .section-text {
-font-weight: 400;
+
 line-height: 1.5;
-text-align: center;
+/* text-align: center; */
 color: var(--secondary-text-color);
 }
 .team {
-    background: #F4F4FD;
+    background: #FFFFFF;
 }
 .projects-btn {
-    font-weight: 600;
+    font-family: inherit;
+    font-weight: 500;
     line-height: 1.5;
     
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -146,13 +132,30 @@ color: var(--secondary-text-color);
     color: #FFFFFF;
     background: var(--accent-color);
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.projects-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 
+    color: var(--primary-text-color);
+}
 /* --------Footer-------- */
 .footer {
     background: var(--background-color);
 }
 .footer-text {
-font-weight: 400;
 line-height: 1.5;
 color: #E7E9FC;
 }
