@@ -5,12 +5,13 @@
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
     --background-color: #2E2F42;
+    --base-color: #FFFFFF;
 }
 
 body {
     font-family: var(--primary-font);
-    font-weight: 400;
-    background: #FFFFFF;
+    /* font-weight: 400; */
+    background: var(--base-color);
     font-size: 16px;
     letter-spacing: 0.02em;
 }
@@ -66,16 +67,17 @@ font-size: 56px;
 line-height: 1.07;
 
 text-align: center;
-color: #FFFFFF;
+color: var(--base-color);
 
 }
 .primary-btn {
 font-family: inherit;
 font-weight: 500;
+font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.04em;
 cursor: pointer;
-color: #FFFFFF;
+color: var(--base-color);
     background: var(--accent-color);
 }
 .primary-btn:hover {
@@ -114,22 +116,26 @@ line-height: 1.5;
 color: var(--secondary-text-color);
 }
 .team {
-    background: #FFFFFF;
+    background: #F4F4FD;
+}
+.team-item {
+    background: var(--base-color);
 }
 .projects-btn {
     font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: #4D5AE5;
+    color: var(--accent-color);
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
 }
 .projects-btn:hover {
-    color: #FFFFFF;
+    color: var(--base-color);
     background: var(--accent-color);
 }
 .visually-hidden {
